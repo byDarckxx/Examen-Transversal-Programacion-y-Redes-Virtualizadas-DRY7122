@@ -1,6 +1,6 @@
 list=[]
 
-op1=int(input("¿Cuántos integrantes son?\n 1.- Solo un integrate \n 2.- Dos o mas \n\n Opción:  "))
+op1=int(input("¿Cuántos integrantes son?\n 1.- Solo un integrante \n 2.- Dos o más \n\n Opción:  "))
 if op1 == 1:
     nombre=input("Ingrese el nombre del integrante: ")
     list.append(nombre)
