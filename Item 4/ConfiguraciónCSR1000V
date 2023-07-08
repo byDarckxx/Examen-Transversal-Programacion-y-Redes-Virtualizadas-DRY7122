@@ -1,0 +1,58 @@
+
+##### Hello
+
+<hello xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"> <capabilities> 
+<capability>urn:ietf:params:netconf:base:1.0</capability> </capabilities> </hello> ]]>]]>
+
+##### Config
+<rpc message-id="103" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"> <get> <filter> <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces"/> </filter> </get> </rpc> ]]>]]>
+
+##### Exit
+
+<rpc message-id="9999999" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"> <close-session /> </rpc>
+
+
+
+
+########COnfig CSR1000v
+
+?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="103">
+    <data>
+        <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+            <interface>
+                <name>GigabitEthernet1</name>
+                <description>VBox</description>
+                <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+                <enabled>true</enabled>
+                <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"></ipv4>
+                <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"></ipv6>
+            </interface>
+            <interface>
+                <name>Loopback0</name>
+                <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+                <enabled>true</enabled>
+                <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+                <address><ip>62.62.62.62</ip> <netmask> 255.255.255.255</netmask></address></ipv4>
+                <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"></ipv6>
+            </interface>
+            <interface>
+                <name>Loopback10</name>
+                <description>mi primera interface con Ansible</description>
+                <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+                <enabled>true</enabled>
+                <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+                <address><ip>10.10.10.10</ip><netmask>255.255.255.255</netmask></address></ipv4>
+                <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"></ipv6>
+            </interface>
+            <interface>
+                <name>Loopback100</name>
+                <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+                <enabled>true</enabled>
+                <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+                <address><ip>20.20.20.20</ip><netmask>255.255.255.255</netmask></address></ipv4>
+                <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"></ipv6>
+            </interface>
+        </interfaces>
+    </data>
+</rpc-reply>]]>]]>
