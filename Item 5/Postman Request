@@ -1,0 +1,12 @@
+Datos necesarios para que el formato sea JSON:
+
+Headers:
+    Key = Content-Type  Value = application/yang-data+json
+    Key = Accept        Value = application/yang-data+json  
+
+
+GET all interfaces https://192.168.56.3/restconf/data/ietf-interfaces:interfaces
+
+DELETE one interface https://192.168.56.3/restconf/data/ietf-interfaces:interfaces/interface= ///interface ///
+
+PUT https://192.168.56.3/restconf/data/ietf-interfaces:interfaces/interface= ///interface ///

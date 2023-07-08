@@ -1,0 +1,79 @@
+{
+    "ietf-interfaces:interfaces": {
+        "interface": [
+            {
+                "name": "GigabitEthernet1",
+                "description": "VBox",
+                "type": "iana-if-type:ethernetCsmacd",
+                "enabled": true,
+                "ietf-ip:ipv4": {
+                    "address": [
+                        {
+                            "ip": "192.168.56.3",
+                            "netmask": "255.255.255.0"
+                        }
+                    ]
+                },
+                "ietf-ip:ipv6": {}
+            },
+            {
+                "name": "Loopback0",
+                "type": "iana-if-type:softwareLoopback",
+                "enabled": true,
+                "ietf-ip:ipv4": {
+                    "address": [
+                        {
+                            "ip": "62.62.62.62",
+                            "netmask": "255.255.255.255"
+                        }
+                    ]
+                },
+                "ietf-ip:ipv6": {}
+            },
+            {
+                "name": "Loopback2",
+                "description": "Examen Transversal DRY7122 Roberto Rivera",
+                "type": "iana-if-type:softwareLoopback",
+                "enabled": true,
+                "ietf-ip:ipv4": {
+                    "address": [
+                        {
+                            "ip": "2.2.2.2",
+                            "netmask": "255.255.255.255"
+                        }
+                    ]
+                },
+                "ietf-ip:ipv6": {}
+            },
+            {
+                "name": "Loopback10",
+                "description": "mi primera interface con Ansible",
+                "type": "iana-if-type:softwareLoopback",
+                "enabled": true,
+                "ietf-ip:ipv4": {
+                    "address": [
+                        {
+                            "ip": "10.10.10.10",
+                            "netmask": "255.255.255.255"
+                        }
+                    ]
+                },
+                "ietf-ip:ipv6": {}
+            },
+            {
+                "name": "Loopback100",
+                "type": "iana-if-type:softwareLoopback",
+                "enabled": true,
+                "ietf-ip:ipv4": {
+                    "address": [
+                        {
+                            "ip": "20.20.20.20",
+                            "netmask": "255.255.255.255"
+                        }
+                    ]
+                },
+                "ietf-ip:ipv6": {}
+            }
+        ]
+    }
+}
