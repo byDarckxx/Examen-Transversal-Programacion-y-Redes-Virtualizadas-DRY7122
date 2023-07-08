@@ -12,4 +12,4 @@ elif op1 == 2:
         list.append(nombres)
     print(list)
 else:
-    print("Opción erronea")
+    print("Opción errónea")
