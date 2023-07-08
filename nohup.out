@@ -1,0 +1,32 @@
+ * Serving Flask app "item3" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:4850/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Jul/2023 03:55:52] "[37mGET / HTTP/1.1[0m" 200 -
+ * Serving Flask app "item3" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:4850/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Jul/2023 04:01:53] "[37mPOST /signup/v1 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Jul/2023 04:02:32] "[37mPOST /login/v1 HTTP/1.1[0m" 200 -
+ * Serving Flask app "item3" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:4850/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Jul/2023 04:06:21] "[37mPOST /login/v1 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Jul/2023 04:06:31] "[37mPOST /signup/v1 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Jul/2023 04:06:34] "[37mPOST /login/v1 HTTP/1.1[0m" 200 -
+ * Serving Flask app "item3" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://0.0.0.0:4850/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Jul/2023 04:10:28] "[37mPOST /signup/v2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Jul/2023 04:10:38] "[37mPOST /login/v2 HTTP/1.1[0m" 200 -
