@@ -59,7 +59,7 @@ def version():
     print()
 
 
-
+#Menú redundante para que sea mas intuitivo
 while True:
     op1=int(input('Bienvenido al Script de Respaldo, ¿Qué acción desea realizar?\n1.- Respaldo de IP y estado de interfaces.\n2.- Respaldo de Running-confing.\n3.- Respaldo de show version.\n\n9.- Salir\n\nOpción: '))
     if op1 == 1:
