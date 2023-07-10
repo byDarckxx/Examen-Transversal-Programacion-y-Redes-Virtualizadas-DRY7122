@@ -34,7 +34,7 @@
                 "name": "Loopback4",
                 "description": "Examen Transversal DRY7122 Roberto Rivera",
                 "type": "iana-if-type:softwareLoopback",
-                "enabled": true,
+                "enabled": false,
                 "ietf-ip:ipv4": {
                     "address": [
                         {
